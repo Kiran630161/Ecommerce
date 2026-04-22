@@ -1,0 +1,119 @@
+/* 🔹 PAGE */
+.cart-page {
+  background: #f5f7fa;
+  min-height: 100vh;
+  padding-bottom: 30px;
+}
+
+/* 🔹 TITLE */
+.cart-title {
+  text-align: center;
+  margin: 20px 0;
+  color: #0F766E;
+}
+
+/* 🔹 EMPTY */
+.empty-cart {
+  text-align: center;
+  color: gray;
+}
+
+/* 🔹 MAIN LAYOUT */
+.cart-container {
+  display: flex;
+  width: 90%;
+  margin: auto;
+  gap: 20px;
+}
+
+/* 🔹 ITEMS */
+.cart-items {
+  flex: 3;
+}
+
+/* 🔹 SINGLE ITEM */
+.cart-item {
+  display: flex;
+  gap: 15px;
+  background: white;
+  padding: 15px;
+  border-radius: 10px;
+  margin-bottom: 15px;
+  align-items: center;
+  transition: 0.3s;
+}
+
+.cart-item:hover {
+  box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+}
+
+/* 🔹 IMAGE */
+.cart-item img {
+  width: 100px;
+  height: 100px;
+  object-fit: contain;
+}
+
+/* 🔹 DETAILS */
+.cart-details h3 {
+  font-size: 16px;
+}
+
+.price {
+  color: #0F766E;
+  font-weight: bold;
+}
+
+/* 🔹 QTY */
+.qty-controls {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 10px 0;
+}
+
+.qty-controls button {
+  background: #0F766E;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+/* 🔹 REMOVE */
+.remove-btn {
+  background: red;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* 🔹 SUMMARY */
+.cart-summary {
+  flex: 1;
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  height: fit-content;
+  position: sticky;
+  top: 20px;
+}
+
+/* 🔹 ORDER BUTTON */
+.order-btn {
+  width: 100%;
+  padding: 10px;
+  background: #0F766E;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.order-btn:hover {
+  background: #115e59;
+}
